@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>کلینیک جراحی پا و مچ پا</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>کلینیک جراحی پا و مچ پا</h1>
+    <p>دکتر علیرضا موسویان</p>
+  </header>
+
+  <main class="grid-container">
+    <a href="#" class="grid-item"><i class="fas fa-user-md"></i><span>تیم تخصصی</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-hospital"></i><span>درباره کلینیک</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-syringe"></i><span>عمل‌های رایج</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-calendar-check"></i><span>دریافت نوبت</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-list"></i><span>لیست عمل</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-exclamation-circle"></i><span>قبل از عمل</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-heartbeat"></i><span>مراقبت بعد عمل</span></a>
+    <a href="#" class="grid-item"><i class="fab fa-instagram"></i><span>اینستاگرام</span></a>
+    <a href="#" class="grid-item"><i class="fab fa-telegram"></i><span>تلگرام</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-x-ray"></i><span>رادیولوژی</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-vials"></i><span>آزمایشگاه</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-magnet"></i><span>MRI</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-radiation"></i><span>اسکن هسته‌ای</span></a>
+    <a href="#" class="grid-item"><i class="fas fa-brain"></i><span>نوار عصب</span></a>
+  </main>
+
+  <footer>
+    <p>© 2025 کلینیک جراحی پا و مچ پا</p>
+  </footer>
+</body>
+</html>
