@@ -1,52 +1,37 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  direction: rtl;
-  text-align: center;
-  color: #333;
-}
-
-header {
-  background: #0d6efd;
-  color: white;
-  padding: 1.5rem;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 15px;
-  padding: 20px;
-}
-
-.grid-item {
-  background: white;
-  border-radius: 10px;
-  padding: 20px 10px;
-  text-decoration: none;
-  color: #0d6efd;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.grid-item:hover {
-  transform: translateY(-5px);
-}
-
-.grid-item i {
-  font-size: 28px;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.grid-item span {
-  font-size: 14px;
-}
-
-footer {
-  background: #eaeaea;
-  padding: 10px;
-  font-size: 14px;
-}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>جراحی‌های رایج</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>جراحی‌های رایج دکتر موسویان</h1>
+  </header>
+  <main class="content">
+    <ul>
+      <li>آرتروسکوپی مچ پا</li>
+      <li>فیوژن مچ پا</li>
+      <li>تعویض مفصل مچ پا</li>
+      <li>جراحی‌های آسیب‌های ورزشی</li>
+      <li>پارگی آشیل</li>
+      <li>پارگی‌های تاندونی و لیگامانی</li>
+      <li>تاندون ترانسفر ها</li>
+      <li>هالوکس والگوس</li>
+      <li>جراحی اصلاح کوتاهی یا بلندی انگشت</li>
+      <li>شکستگی‌های مچ و کف پا</li>
+      <li>بدشکلی‌های پا ناشی از دیابت (شارکو)</li>
+      <li>جراحی‌های CP و فلج مغزی یا بدشکلی‌های پا به دنبال ضربه به سر یا آسیب مغزی</li>
+      <li>اختلالات فلجی پا و افتادگی مچ پا</li>
+      <li>کف پای صاف</li>
+      <li>شارکو ماری توث</li>
+      <li>انحرافات و کجی‌های مچ پا</li>
+      <li>پا با درگیری‌های روماتولوژیک</li>
+    </ul>
+  </main>
+  <footer>
+    <p>© 2025 کلینیک جراحی پا و مچ پا</p>
+  </footer>
+</body>
+</html>
